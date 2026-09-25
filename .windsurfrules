@@ -1,0 +1,24 @@
+# Vibed Website Instructions
+
+## Core Setup
+- **App Type:** Premium Job Board Website (Vibed)
+- **Niche:** Jobs for Vibe Coders, AI Engineers, and AI-Assisted Developers
+- **Stack:** Next.js (App Router), Tailwind CSS, TypeScript
+- **Fonts:** Geist Sans (primary) or Inter (fallback) via `next/font`
+
+## Visuals & Theme (Remote Rocketship Vibe)
+- **Theme:** Ultra-minimalist tech dark mode (`bg-slate-950`, `text-slate-50`)
+- **Background:** Fixed view with a scroll-responsive radial gradient blur (Indigo/Violet at top shifting to Cyan/Emerald on scroll)
+- **Typography:** Tight tracking (`tracking-tight`) for bold headings. Medium/muted body text (`text-slate-400`) for hierarchy.
+- **Components:** Compact horizontal rows (no bulky cards) using `bg-slate-900/50 backdrop-blur-md` with subtle hover glow borders.
+
+## Layout Structure
+1. **Navbar:** Sticky, transparent blur with "VibeStack" text logo (left) and "Post a Job" button (right).
+2. **Hero:** Centered text with a clean gradient effect, short sub-headline, and one wide search bar.
+3. **Filters:** Low-profile pill buttons for tech stack (Cursor, Windsurf, Claude Code, Aider, APIs).
+4. **Job Stream:** A unified vertical stack of the compact job rows.
+
+## Code Standards
+- **Persona:** Act as an elite Senior Next.js Developer. Write production-ready code on the first attempt.
+- **Clean Code:** Strictly modular, single-purpose components (under 100 lines per file). Zero code duplication (DRY).
+- **Animations:** Smooth transitions (`transition-all duration-300`) on all hover and scroll behaviors.
